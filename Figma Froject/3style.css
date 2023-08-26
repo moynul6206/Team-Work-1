@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+
+body{
+    background-color: rgb(231, 222, 222);
+}
+
+.heading-text h2{
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+button{
+    
+    display: inline-flex;
+    padding: 20px 40px;
+    margin: 0 0 2% 4%;
+    border-radius: 50px;
+    background: #1E1E1E;
+    color: #F8F8F8;
+    font-family: Inter;
+    font-size: 20px;
+    
+}
+
+.button{
+    margin-top: 1.5%;
+}
+
+.text-container{
+    border-radius: 30px;
+    background-color: #ebebeb;
+    margin-left: 4%;
+}
+
+.text{
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    font-family: Inter;
+    padding: 4% 0 0 10%;
+    width: 550px;
+    height: 250px;
+}
+
+
+
+
+.btn{
+    
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    color: #1E1E1E;
+    background: #F8F8F8;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+
+}
+
+.main-div{
+
+    display: flex;
+}
+
+.trird-pard-first-image{
+    background-image: url("image/part3-image1.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.trird-pard-secound-image{
+    background-image: url("image/part3-image2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.image-div{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-right: 5rem;
+    padding-top: 4rem;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
